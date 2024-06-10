@@ -27,7 +27,7 @@ The following technologies were used:
 * Python (with fastapi, requests, pandas, catboost, rpy2)
 * R (with Shiny, data.table, TTR, vars, dbscan, deSolve, imager, plot.matrix)
 * TeX (with beamer)
-* ML (with catboost, EMA, VAR)
+* ML (with catboost, EMA, VAR, hdbscan)
 * Math (advection diffusion PDE)
 
 The second part can be run as a Shiny web app.
