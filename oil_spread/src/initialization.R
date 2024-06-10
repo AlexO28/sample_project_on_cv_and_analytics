@@ -1,0 +1,16 @@
+library(shiny)
+Sys.setlocale("LC_ALL", "Russian_Russia.20866")
+
+source("src/ui.R", encoding="UTF-8")
+source("src/server.R", encoding="UTF-8")
+source("src/engine.R", encoding="UTF-8")
+source("src/processing.R", encoding="UTF-8")
+source("src/modelling.R", encoding="UTF-8")
+source("src/emulsification.R", encoding="UTF-8")
+source("src/evaporation.R", encoding="UTF-8")
+source("src/waves.R", encoding="UTF-8")
+source("src/currents.R", encoding="UTF-8")
+source("src/integration_of_currents.R", encoding="UTF-8")
+
+options(shiny.host = '0.0.0.0')
+options(shiny.port = 3838)
