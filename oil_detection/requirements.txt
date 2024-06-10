@@ -1,0 +1,9 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.13.0+cpu
+torchvision==0.14.0+cpu
+fastapi==0.95.1
+pandas==2.0.1
+Pillow==9.5.0
+uvicorn==0.22.0
+python-multipart==0.0.6
+aiofiles==23.1.0
